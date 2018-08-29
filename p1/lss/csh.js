@@ -5,7 +5,7 @@ function cash(){
 		change;
 
 		do {
-			var change = prompt('Change amount?') * 100;
+			change = prompt('Change amount?') * 100;
 		}
 		while( change < 0 || !change );
 
@@ -14,9 +14,7 @@ function cash(){
 			while( change >= coin ){
 				change -= coin;
 				coinsAmount++;
-			}})
+			}});
 
 		console.log(coinsAmount);
 }
-
-	
